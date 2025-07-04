@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: ZitaoTech
-      url-base: https://github.com/ZitaoTech
+    - name: DZT970525
+      url-base: https://github.com/DZT970525
   projects:
     - name: zmk
-      remote: ZitaoTech
-      revision: bbkeyboard_tp
-      import: app/west.yml
+      remote: DZT970525
+      revision: main
+      import: app  # 表示在 app/ 目录中继续寻找 west.yml
   self:
     path: config
